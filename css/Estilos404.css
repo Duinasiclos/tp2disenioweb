@@ -1,0 +1,31 @@
+body{
+    background: rgb(20, 20, 109);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+img{
+    width: 50%;
+}
+.error404{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color: aliceblue;
+}
+.boton{
+    background-color: red;
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.centro{
+    align-items: center;
+}
