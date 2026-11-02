@@ -1,17 +1,33 @@
 body{
     font-family: sans-serif;
 }
-nav{
-    background-color: rgb(9, 64, 165);
-    color: rgb(38, 98, 150);
-    text-align: center;
-    font-size: 200%;
-    padding: 50px;
+header{
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 53, 184);
+    nav{       
+        padding: 10px;
+        a{
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 25px;
+            color: aliceblue;
+            font-size: 200%;
+        }
+    }
 }
-.space{
-    text-decoration: none;
-    color: aliceblue;
-    padding: 100px;
+.logo{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+}
+.space:hover{
+    color: rgb(150, 30, 30);
 }
 .mid{
     text-align: center;
@@ -74,4 +90,7 @@ p{
 .espaciomedio{
     text-align: center;
     padding: 25px;
+}
+.seleccion:hover{
+    color: rgb(112, 21, 21);
 }
