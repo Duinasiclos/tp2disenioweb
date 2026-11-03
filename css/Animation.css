@@ -1,0 +1,17 @@
+body {
+  animation: rotate-bg-color 10s infinite;
+}
+
+@keyframes rotate-bg-color {
+    0% {
+    background-color: black;
+  }
+    20% {
+    background-color: rgb(71, 69, 69);
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+
