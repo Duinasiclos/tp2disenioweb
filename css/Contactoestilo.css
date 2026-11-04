@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+    background-color: #f3f3f3;
+}
+
+.contacto {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 0.8fr 1.5fr;
+    gap: 100px;
+    padding: 0 20px;
+}
+
+
+.contacto h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    color: #000;
+}
+
+
+.dato {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 28px;
+    color: #40536a;
+}
+
+.dato strong {
+    font-size: 18px;
+}
+
+.dato p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.dato p:last-child {
+    color: #5145ff;
+}
+
+.icono {
+    color: #ec008c;
+    font-size: 32px;
+}
+
+.campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 14px;
+}
+
+.campos input,
+.campos textarea {
+    width: 100%;
+    border: none;
+    background: white;
+    padding: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+.campos input {
+    height: 58px;
+}
+
+.campos textarea {
+    grid-column: span 2;
+    height: 118px;
+    resize: vertical;
+}
+
+.campos input:focus,
+.campos textarea:focus {
+    outline: 1px solid #ec008c;
+}
+
+.boton{
+    background-color: rgb(146, 14, 14);
+    border: none;
+    color: aliceblue;
+    padding: 10px 24px;
+    text-decoration: none;
+    border-radius: 20px;
+}
