@@ -7,18 +7,20 @@ body{
 }
 header{
     display: flex;
-    padding-right: 10px 20px;
+    padding-right: 30px;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(24, 53, 184);
     nav{       
-        padding: 10px;
+        padding: 20px;
+        display: flex;
+        gap: 20px;
         a{
             text-decoration: none;
             display: inline-block;
-            padding: 10px 25px;
+            padding: 10px;
             color: aliceblue;
-            font-size: 100%;
+            font-size: 80%;
         }
     }
 }
@@ -38,9 +40,14 @@ header{
     background-color: rgb(146, 14, 14);
     border: none;
     color: aliceblue;
-    padding: 10px 24px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;   
+}
+.boton:hover{
+    transform: scale(1.1);
 }
 .mid{
     text-align: center;
