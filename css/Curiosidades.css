@@ -5,3 +5,28 @@ main {
     grid-template-rows: auto auto auto;
     gap: 15px;
 }
+.fondo{
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(16, 18, 136, 0.15);
+    box-sizing: border-box;
+}
+body {
+  animation: rotate-bg-color 10s infinite;
+}
+
+@keyframes rotate-bg-color {
+    0% {
+    background-color: rgb(19, 101, 194);
+  }
+    20% {
+    background-color: rgb(153, 18, 18);
+  }
+  100% {
+    background-color: rgb(19, 101, 194);
+  }
+}
