@@ -65,11 +65,11 @@ header{
     font-size: 130%;
     color: aliceblue;
 }
-.fondopleno{
+.fondoplano{
     background: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 75vh;
 }
 .color{
     text-decoration: none;
@@ -150,4 +150,5 @@ p{
     display: flex;
     align-items: center;
 }
+
 
